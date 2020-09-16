@@ -1,5 +1,7 @@
 package leetcode.doublepoint;
 
+import java.util.HashSet;
+
 /**
  * @Author laijinhan
  * @date 2020/9/14 3:35 下午
@@ -92,5 +94,6 @@ public class findMedianSortedArrays {
         int[] input2=new int[]{3,4};
         System.out.println(new Solution().findMedianSortedArrays(input1,input2));
         System.out.println(new Solution().getKthElement(input1,input2,3));
+        
     }
 }
