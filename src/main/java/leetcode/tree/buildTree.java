@@ -8,17 +8,6 @@ import java.util.Stack;
  * @date 2020/9/21 3:23 下午
  */
 
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
-
 /**
  * 根据先序遍历和中序遍历确定一个二叉树
  */
