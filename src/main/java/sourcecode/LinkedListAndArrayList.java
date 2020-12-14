@@ -1,9 +1,7 @@
 package sourcecode;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.PriorityQueue;
-import java.util.TreeMap;
+import java.util.*;
+import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * @Author laijinhan
@@ -16,7 +14,8 @@ public class LinkedListAndArrayList {
         ArrayList<Integer> al=new ArrayList<>();
         LinkedList<Integer> ll=new LinkedList<>();
         al.add(1);
-        StringBuilder sb=new StringBuilder();
+        String[] s=new String[3];
+        Arrays.sort(s);
 
 
     }
