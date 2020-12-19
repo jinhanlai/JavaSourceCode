@@ -1,4 +1,4 @@
-package sourcecode;
+package sort;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -61,6 +61,11 @@ public class BaseSortAlgorithm {
 			}
 		}
 	}
+
+	/**
+	 * 桶排序
+	 * @param nums
+	 */
 	public void bucketSort(int[] nums){
 		int n=nums.length;
 		int maxValue = Arrays.stream(nums).max().getAsInt();

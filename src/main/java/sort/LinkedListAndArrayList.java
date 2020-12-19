@@ -1,7 +1,6 @@
-package sourcecode;
+package sort;
 
 import java.util.*;
-import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * @Author laijinhan
