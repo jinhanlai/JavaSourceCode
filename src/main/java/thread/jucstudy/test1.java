@@ -1,9 +1,7 @@
-package thread.juc;
+package thread.jucstudy;
 
-import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.Test;
 
-import java.util.concurrent.Callable;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
