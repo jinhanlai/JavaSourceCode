@@ -2,6 +2,8 @@ package thread.jucstudy;
 
 import org.junit.jupiter.api.Test;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -24,6 +26,7 @@ public class test1 {
 		Lock lock = new ReentrantLock();
 		lock.lock();
 
+		Arrays.stream(new int[]{1,2,3}).parallel().forEach(System.out::print);
 		try {
 			System.out.println("同步");
 		} catch (Exception e) {
